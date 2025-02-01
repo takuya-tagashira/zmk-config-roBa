@@ -68,10 +68,10 @@
 
         default_layer {
             bindings = <
-&mt LEFT_SHIFT Q  &kp W         &kp E           &kp R        &kp T                                                                        &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &kp D           &kp F        &kp G                 &caps_word                   &bt BT_PRV                &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&kp Z             &kp X         &kp C           &kp V        &kp B                 &lt 2 CAPS                   &bt BT_NXT                &kp N        &kp M  &kp COMMA  &kp DOT  &kp COLON
-&kp TAB           &kp LEFT_WIN  &kp LEFT_SHIFT  &lt 4 SPACE  &mt LCTRL LANGUAGE_4  &mt LEFT_ALT LANGUAGE_5      &mt LEFT_SHIFT BACKSPACE  &lt 1 ENTER                             &lt 5 INT_HENKAN
+&mt LEFT_SHIFT Q  &kp W         &kp E           &kp R        &kp T                                                            &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A             &kp S         &kp D           &kp F        &kp G           &caps_word             &bt BT_PRV                &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&kp Z             &kp X         &kp C           &kp V        &kp B           &lt 2 GRAVE            &bt BT_NXT                &kp N        &kp M  &kp COMMA  &kp DOT  &kp COLON
+&kp TAB           &kp LEFT_WIN  &kp LEFT_SHIFT  &lt 4 SPACE  &mt LCTRL INT2  &mt LEFT_ALT CAPS      &mt LEFT_SHIFT BACKSPACE  &lt 1 ENTER                             &lt 5 INT_HENKAN
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -80,7 +80,7 @@
         FUNCTION {
             bindings = <
 &trans  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE                              &kp GRAVE    &kp CARET       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON
-&trans  &kp DOLLAR        &kp PERCENT           &kp AMPERSAND          &kp LS(SLASH)  &none           &trans  &kp AT_SIGN  &kp UNDERSCORE  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp MINUS
+&trans  &kp DOLLAR        &kp PERCENT           &kp AMPERSAND          &kp LS(SLASH)  &none           &trans  &kp AT_SIGN  &kp UNDERSCORE  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp EQUAL
 &trans  &kp EXCLAMATION   &kp DOUBLE_QUOTES     &kp HASH               &kp PIPE       &lt 2 CAPS      &trans  &kp SLASH    &kp BACKSLASH   &kp COMMA         &kp PERIOD         &kp COLON
 &trans  &trans            &kp LEFT_SHIFT        &trans                 &trans         &trans          &trans  &trans                                                            &trans
             >;
